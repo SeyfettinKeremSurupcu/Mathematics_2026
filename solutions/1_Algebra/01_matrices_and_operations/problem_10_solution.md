@@ -24,15 +24,15 @@ Denote the columns of $B$ by $b_1,b_2$.
 1. 
 
 $$
-b_1 = \begin{pmatrix} 1 \\\\ -1 \\\\ 3 \end{pmatrix}, \qquad b_2 = \begin{pmatrix} 2 \\\\ 0 \\\\ 1 \end{pmatrix}
+b_1 = \begin{pmatrix} 1 \cr -1 \cr 3 \end{pmatrix}, \qquad b_2 = \begin{pmatrix} 2 \cr 0 \cr 1 \end{pmatrix}
 $$
 
 $$
-Ab_1 = \begin{pmatrix} 1 & 2 & 0 \\\\ 0 & 1 & 1 \end{pmatrix} \begin{pmatrix} 1 \\\\ -1 \\\\ 3 \end{pmatrix} = \begin{pmatrix} 1(1)+2(-1)+0(3) \\\\ 0(1)+1(-1)+1(3) \end{pmatrix} = \begin{pmatrix} -1 \\\\ 2 \end{pmatrix}
+Ab_1 = \begin{pmatrix} 1 & 2 & 0 \\\\ 0 & 1 & 1 \end{pmatrix} \begin{pmatrix} 1 \cr -1 \cr 3 \end{pmatrix} = \begin{pmatrix} 1(1)+2(-1)+0(3) \cr 0(1)+1(-1)+1(3) \end{pmatrix} = \begin{pmatrix} -1 \cr 2 \end{pmatrix}
 $$
 
 $$
-Ab_2 = \begin{pmatrix} 1 & 2 & 0 \\\\ 0 & 1 & 1 \end{pmatrix} \begin{pmatrix} 2 \\\\ 0 \\\\ 1 \end{pmatrix} = \begin{pmatrix} 1(2)+2(0)+0(1) \\\\ 0(2)+1(0)+1(1) \end{pmatrix} = \begin{pmatrix} 2 \\\\ 1 \end{pmatrix}
+Ab_2 = \begin{pmatrix} 1 & 2 & 0 \\\\ 0 & 1 & 1 \end{pmatrix} \begin{pmatrix} 2 \cr 0 \cr 1 \end{pmatrix} = \begin{pmatrix} 1(2)+2(0)+0(1) \cr 0(2)+1(0)+1(1) \end{pmatrix} = \begin{pmatrix} 2 \cr 1 \end{pmatrix}
 $$
 
 2. 
@@ -44,13 +44,13 @@ $$
 3. Comparing results: The first column of $AB$ is 
 
 $$
-\begin{pmatrix} -1 \\\\ 2 \end{pmatrix}
+\begin{pmatrix} -1 \cr 2 \end{pmatrix}
 $$
 
 which is $Ab_1$. The second column of $AB$ is 
 
 $$
-\begin{pmatrix} 2 \\\\ 1 \end{pmatrix}
+\begin{pmatrix} 2 \cr 1 \end{pmatrix}
 $$
 
 which is $Ab_2$. 
