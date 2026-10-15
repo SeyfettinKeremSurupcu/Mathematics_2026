@@ -4,13 +4,13 @@ Given
 $$
 A=
 \begin{pmatrix}
-2 & -1 & 3 \\
-0 & 4 & 5 \\
+2 & -1 & 3 \\\\
+0 & 4 & 5 \\\\
 \end{pmatrix},\qquad B=
 \begin{pmatrix}
-1 & 0 \\
--2 & 3 \\
-4 & 1 \\
+1 & 0 \\\\
+-2 & 3 \\\\
+4 & 1 \\\\
 \end{pmatrix}.
 $$
 
@@ -36,5 +36,5 @@ $$
 First column of $B$ as a column vector: 
 
 $$
-\begin{pmatrix} 1 \\ -2 \\ 4 \end{pmatrix}
+\begin{pmatrix} 1 \cr -2 \cr 4 \end{pmatrix}
 $$
