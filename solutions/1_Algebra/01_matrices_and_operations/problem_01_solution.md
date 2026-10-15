@@ -25,5 +25,11 @@ $$
    - $a_{23}$ (row 2, column 3 of $A$) = $5$
    - $b_{21}$ (row 2, column 1 of $B$) = $-2$
    - $b_{32}$ (row 3, column 2 of $B$) = $1$
-3. Second row of $A$ as a row vector: $\begin{pmatrix} 0 & 4 & 5 \end{pmatrix}$
-   First column of $B$ as a column vector: $\begin{pmatrix} 1 \\ -2 \\ 4 \end{pmatrix}$
+3. Second row of $A$ as a row vector: 
+$$
+\begin{pmatrix} 0 & 4 & 5 \end{pmatrix}
+$$
+First column of $B$ as a column vector: 
+$$
+\begin{pmatrix} 1 \\ -2 \\ 4 \end{pmatrix}
+$$
