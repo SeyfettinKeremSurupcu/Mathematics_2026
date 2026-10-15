@@ -21,6 +21,7 @@ $$
 $$
 
 ### Solution 6
+
 $$
 A^T = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}
 $$
@@ -38,7 +39,9 @@ $$
 $$
 
 Verification: 
+
 $$
 B^TA^T = \begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 3 \end{pmatrix} \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix} = \begin{pmatrix} (1)(1)+(2)(2)+(-1)(3) & (1)(4)+(2)(5)+(-1)(6) \\ (0)(1)+(1)(2)+(3)(3) & (0)(4)+(1)(5)+(3)(6) \end{pmatrix} = \begin{pmatrix} 2 & 8 \\ 11 & 23 \end{pmatrix}
 $$
+
 Thus, $(AB)^T = B^TA^T$.
