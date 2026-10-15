@@ -41,5 +41,18 @@ $$
 AB = \begin{pmatrix} 1 & 2 & 0 \\\\ 0 & 1 & 1 \end{pmatrix} \begin{pmatrix} 1 & 2 \\\\ -1 & 0 \\\\ 3 & 1 \end{pmatrix} = \begin{pmatrix} (1)(1)+(2)(-1)+(0)(3) & (1)(2)+(2)(0)+(0)(1) \\\\ (0)(1)+(1)(-1)+(1)(3) & (0)(2)+(1)(0)+(1)(1) \end{pmatrix} = \begin{pmatrix} -1 & 2 \\\\ 2 & 1 \end{pmatrix}
 $$
 
-3. Comparing results: The first column of $AB$ is $\begin{pmatrix} -1 \\\\ 2 \end{pmatrix}$, which is $Ab_1$. The second column of $AB$ is $\begin{pmatrix} 2 \\\\ 1 \end{pmatrix}$, which is $Ab_2$. 
+3. Comparing results: The first column of $AB$ is 
+
+$$
+\begin{pmatrix} -1 \\\\ 2 \end{pmatrix}
+$$
+
+which is $Ab_1$. The second column of $AB$ is 
+
+$$
+\begin{pmatrix} 2 \\\\ 1 \end{pmatrix}
+$$
+
+which is $Ab_2$. 
+
 Explanation: Matrix multiplication $AB$ can be viewed as applying the transformation matrix $A$ to each column vector of $B$ independently. Thus, the $j$-th column of the product $AB$ is always equal to the matrix $A$ multiplied by the $j$-th column of matrix $B$.
