@@ -26,8 +26,8 @@ $$
 \begin{pmatrix}
 3 & 1 \\
 1 & 1 \\
-\end{pmatrix}
-- 0 + 2 \cdot \det
+\end{pmatrix} \\
+&\quad - 0 + 2 \cdot \det
 \begin{pmatrix}
 2 & 0 \\
 3 & 1 \\
@@ -67,8 +67,8 @@ $$
 \begin{pmatrix}
 3 & 1 \\
 1 & 1 \\
-\end{pmatrix}
-+ 2 \cdot \det
+\end{pmatrix} \\
+&\quad + 2 \cdot \det
 \begin{pmatrix}
 3 & 1 \\
 2 & 0 \\
