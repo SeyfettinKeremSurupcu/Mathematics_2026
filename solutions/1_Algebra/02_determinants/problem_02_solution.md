@@ -14,6 +14,7 @@ compute $\det A$ using Sarrus' rule. Then perform one simple check using a chose
 
 ### Solution 2
 **Step 1: Understand and set up Sarrus' Rule**
+
 Sarrus' rule is a visual method for calculating the determinant of a $3 \times 3$ matrix. To use it, we write out the matrix and then copy its first two columns to the right side:
 
 $$
@@ -25,6 +26,7 @@ $$
 $$
 
 **Step 2: Multiply along the diagonals**
+
 We calculate the sum of the products of the three main (downward-right) diagonals and subtract the sum of the products of the three anti-diagonals (upward-right).
 
 *Downward diagonals (add these):*
@@ -44,6 +46,7 @@ $$
 $$
 
 **Step 3: Perform a simple check**
+
 To verify our result, we can use the **Laplace expansion (cofactor expansion)** property along any row or column. It is usually fastest to expand along a row or column that contains a zero. Let's expand along the first column:
 
 $$
