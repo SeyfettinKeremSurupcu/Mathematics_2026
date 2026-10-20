@@ -47,8 +47,8 @@ $$
 \begin{pmatrix}
 3 & 4 \\
 1 & 5 \\
-\end{pmatrix}
-- 0 + 2 \cdot \det
+\end{pmatrix} \\
+&\quad - 0 + 2 \cdot \det
 \begin{pmatrix}
 2 & -1 \\
 3 & 4 \\
