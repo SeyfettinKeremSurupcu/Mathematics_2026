@@ -51,9 +51,22 @@ $$
 $$
 
 Calculate the smaller $2 \times 2$ determinants:
-- $\det \begin{pmatrix} 3 & 4 \cr 1 & 5 \end{pmatrix} = (3)(5) - (4)(1) = 15 - 4 = 11$
-- $\det \begin{pmatrix} 2 & -1 \cr 3 & 4 \end{pmatrix} = (2)(4) - (-1)(3) = 8 + 3 = 11$
 
+$$
+\det\begin{pmatrix}
+3 & 4 \\
+1 & 5
+\end{pmatrix}
+= (3)(5) - (4)(1) = 15 - 4 = 11
+$$
+
+$$
+\det\begin{pmatrix}
+2 & -1 \\
+3 & 4
+\end{pmatrix}
+= (2)(4) - (-1)(3) = 8 + 3 = 11
+$$
 Substitute these back into the expansion equation:
 
 $$
