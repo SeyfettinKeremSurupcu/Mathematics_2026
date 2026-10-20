@@ -59,5 +59,22 @@ $$
 
 Notice that the left side of the second equation is exactly twice the left side of the first equation.
 
-- **Infinitely many solutions:** Choose $b$ such that the second equation is twice the first, making them consistent. For example, let $b_1 = 1$ and $b_2 = 2$. The vector is $b = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$.
-- **No solution:** Choose $b$ such that the equations contradict each other. For example, let $b_1 = 1$ and $b_2 = 0$. The vector is $b = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$.
+- **Infinitely many solutions:** Choose $b$ such that the second equation is twice the first, making them consistent. For example, let $b_1 = 1$ and $b_2 = 2$. The vector $b$ is:
+
+$$
+b =
+\begin{pmatrix}
+1 \\
+2 \\
+\end{pmatrix}
+$$
+
+- **No solution:** Choose $b$ such that the equations contradict each other. For example, let $b_1 = 1$ and $b_2 = 0$. The vector $b$ is:
+
+$$
+b =
+\begin{pmatrix}
+1 \\
+0 \\
+\end{pmatrix}
+$$
