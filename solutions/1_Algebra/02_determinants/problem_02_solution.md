@@ -58,9 +58,9 @@ To verify our result, we can use the **Laplace expansion (cofactor expansion)** 
 $$
 \begin{aligned}
 \det(A) ={}&
-1 \cdot \det\begin{pmatrix} 3 & 4 \\ 1 & 5 \end{pmatrix}
-- 0 \cdot \det\begin{pmatrix} 2 & -1 \\ 1 & 5 \end{pmatrix} \\
-&+ 2 \cdot \det\begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}
+1\cdot\det\begin{pmatrix}3&4\\1&5\end{pmatrix}
+-0\cdot\det\begin{pmatrix}2&-1\\1&5\end{pmatrix}\\
+&+2\cdot\det\begin{pmatrix}2&-1\\3&4\end{pmatrix}
 \end{aligned}
 $$
 
