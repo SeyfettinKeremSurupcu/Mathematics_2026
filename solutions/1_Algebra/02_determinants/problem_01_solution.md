@@ -16,7 +16,16 @@ $$
 Which matrix is invertible? Justify your answer.
 
 ### Solution 1
-To compute the determinant of a $2 \times 2$ matrix $A = \begin{pmatrix} a & b \cr c & d \end{pmatrix}$, we use the standard formula:
+To compute the determinant of a $2 \times 2$ matrix $A$, where
+
+$$
+A = \begin{pmatrix}
+a & b \\
+c & d
+\end{pmatrix},
+$$
+
+we use the standard formula:
 
 $$
 \det(A) = ad - bc
