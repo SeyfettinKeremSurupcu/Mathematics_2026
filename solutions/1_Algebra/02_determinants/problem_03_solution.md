@@ -23,10 +23,21 @@ $$
 \det(A) = 1 \cdot \det \begin{pmatrix} 3 & 1 \cr 1 & 1 \end{pmatrix} - 0 \cdot \det \begin{pmatrix} 2 & 0 \cr 1 & 1 \end{pmatrix} + 2 \cdot \det \begin{pmatrix} 2 & 0 \cr 3 & 1 \end{pmatrix}
 $$
 
-Now, we calculate the smaller $2 \times 2$ determinants:
-- $\det \begin{pmatrix} 3 & 1 \cr 1 & 1 \end{pmatrix} = (3)(1) - (1)(1) = 3 - 1 = 2$
-- The second term is multiplied by $0$, so we ignore it.
-- $\det \begin{pmatrix} 2 & 0 \cr 3 & 1 \end{pmatrix} = (2)(1) - (0)(3) = 2 - 0 = 2$
+Now, we calculate the smaller determinants:
+
+First term determinant:
+
+$$
+\det \begin{pmatrix} 3 & 1 \cr 1 & 1 \end{pmatrix} = (3)(1) - (1)(1) = 3 - 1 = 2
+$$
+
+The second term is multiplied by 0, so we ignore it.
+
+Third term determinant:
+
+$$
+\det \begin{pmatrix} 2 & 0 \cr 3 & 1 \end{pmatrix} = (2)(1) - (0)(3) = 2 - 0 = 2
+$$
 
 Putting it all together:
 
@@ -47,8 +58,7 @@ B=
 $$
 
 **Step 3: Predict the determinant of matrix $B$**
-A fundamental property of determinants states that **swapping any two rows (or columns) of a square matrix multiplies its determinant by $-1$**. 
-Since we performed exactly one row swap on $A$ to get $B$, we predict:
+A fundamental property of determinants states that swapping any two rows (or columns) of a square matrix multiplies its determinant by -1. Since we performed exactly one row swap on $A$ to get $B$, we predict:
 
 $$
 \det(B) = -\det(A) = -6
@@ -61,11 +71,21 @@ $$
 \det(B) = -1 \cdot \det \begin{pmatrix} 3 & 1 \cr 1 & 1 \end{pmatrix} + 2 \cdot \det \begin{pmatrix} 0 & 1 \cr 2 & 1 \end{pmatrix} - 0 \cdot \det \begin{pmatrix} 0 & 3 \cr 2 & 1 \end{pmatrix}
 $$
 
-*(Note the alternating signs for the second row expansion: $-, +, -$)*
+*(Note the alternating signs for the second row expansion: -, +, -)*
 
-Calculate the $2 \times 2$ determinants:
-- $\det \begin{pmatrix} 3 & 1 \cr 1 & 1 \end{pmatrix} = (3)(1) - (1)(1) = 2$
-- $\det \begin{pmatrix} 0 & 1 \cr 2 & 1 \end{pmatrix} = (0)(1) - (1)(2) = -2$
+Calculate the smaller determinants:
+
+First term determinant:
+
+$$
+\det \begin{pmatrix} 3 & 1 \cr 1 & 1 \end{pmatrix} = (3)(1) - (1)(1) = 2
+$$
+
+Second term determinant:
+
+$$
+\det \begin{pmatrix} 0 & 1 \cr 2 & 1 \end{pmatrix} = (0)(1) - (1)(2) = -2
+$$
 
 Substitute these back:
 
