@@ -56,12 +56,13 @@ $$
 To verify our result, we can use the **Laplace expansion (cofactor expansion)** property along any row or column. It is usually fastest to expand along a row or column that contains a zero. Let's expand along the first column:
 
 $$
-\begin{aligned}
-\det(A) ={}&
+\det(A)
+=
 1\cdot\det\begin{pmatrix}3&4\\1&5\end{pmatrix}
--0\cdot\det\begin{pmatrix}2&-1\\1&5\end{pmatrix}\\
-&+2\cdot\det\begin{pmatrix}2&-1\\3&4\end{pmatrix}
-\end{aligned}
+-
+0\cdot\det\begin{pmatrix}2&-1\\1&5\end{pmatrix}
++
+2\cdot\det\begin{pmatrix}2&-1\\3&4\end{pmatrix}
 $$
 
 Calculate the smaller $2 \times 2$ determinants:
