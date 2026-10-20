@@ -51,8 +51,7 @@ Ax &= 4
 \begin{pmatrix}
 2 \\
 1 \\
-\end{pmatrix}
-+ 2
+\end{pmatrix} + 2
 \begin{pmatrix}
 -1 \\
 3 \\
@@ -61,8 +60,7 @@ Ax &= 4
 \begin{pmatrix}
 8 \\
 4 \\
-\end{pmatrix}
-+
+\end{pmatrix} +
 \begin{pmatrix}
 -2 \\
 6 \\
