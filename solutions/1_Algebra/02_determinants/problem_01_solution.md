@@ -15,9 +15,52 @@ $$
 
 Which matrix is invertible? Justify your answer.
 
-> **Why this exercise:** introduces the simplest determinant calculation and immediately connects it with invertibility.
+### Solution 1
 
-**Solution:**
-For the first matrix: $\det(A) = (3 \times 4) - (-2 \times 5) = 12 + 10 = 22$.
-For the second matrix: $\det(B) = (1 \times 14) - (7 \times 2) = 14 - 14 = 0$.
-A matrix is invertible if its determinant is non-zero. The first matrix has a determinant of 22, so it is invertible.
+The determinant of a $2 \times 2$ matrix is computed as:
+
+$$
+\det
+\begin{pmatrix}
+a & b \\
+c & d \\
+\end{pmatrix}
+= ad - bc
+$$
+
+**Step 1: Compute the determinant of the first matrix**
+
+$$
+\begin{aligned}
+\det
+\begin{pmatrix}
+3 & -2 \\
+5 & 4 \\
+\end{pmatrix}
+&= (3)(4) - (-2)(5) \\
+&= 12 - (-10) \\
+&= 22
+\end{aligned}
+$$
+
+**Step 2: Compute the determinant of the second matrix**
+
+$$
+\begin{aligned}
+\det
+\begin{pmatrix}
+1 & 7 \\
+2 & 14 \\
+\end{pmatrix}
+&= (1)(14) - (7)(2) \\
+&= 14 - 14 \\
+&= 0
+\end{aligned}
+$$
+
+**Step 3: Determine invertibility**
+
+A matrix is invertible if and only if its determinant is non-zero ($\det A \neq 0$). 
+
+- The first matrix is invertible because its determinant is $22 \neq 0$. 
+- The second matrix is not invertible because its determinant is $0$.
