@@ -23,7 +23,8 @@ compute $(AB)^{-1}$ and $B^{-1}A^{-1}$. Check that the results are the same and 
 Compute the product $AB$:
 
 $$
-AB = 
+\begin{aligned}
+AB &= 
 \begin{pmatrix}
 1 & 1 \\
 0 & 1 \\
@@ -31,28 +32,31 @@ AB =
 \begin{pmatrix}
 2 & 0 \\
 0 & 3 \\
-\end{pmatrix}
-=
+\end{pmatrix} \\
+&=
 \begin{pmatrix}
 2 & 3 \\
 0 & 3 \\
 \end{pmatrix}
+\end{aligned}
 $$
 
 Find $(AB)^{-1}$:
 
 $$
-(AB)^{-1} = 
+\begin{aligned}
+(AB)^{-1} &= 
 \frac{1}{6}
 \begin{pmatrix}
 3 & -3 \\
 0 & 2 \\
-\end{pmatrix}
-=
+\end{pmatrix} \\
+&=
 \begin{pmatrix}
 1/2 & -1/2 \\
 0 & 1/3 \\
 \end{pmatrix}
+\end{aligned}
 $$
 
 Find $A^{-1}$ and $B^{-1}$:
