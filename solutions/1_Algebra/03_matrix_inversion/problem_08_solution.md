@@ -39,7 +39,8 @@ $$
 Apply $S$:
 
 $$
-Sv=
+\begin{aligned}
+Sv &=
 \begin{pmatrix}
 2 & 0 \\
 0 & 1/2 \\
@@ -47,18 +48,20 @@ Sv=
 \begin{pmatrix}
 1 \\
 1 \\
-\end{pmatrix}
-=
+\end{pmatrix} \\
+&=
 \begin{pmatrix}
 2 \\
 1/2 \\
 \end{pmatrix}
+\end{aligned}
 $$
 
 Apply $S^{-1}$:
 
 $$
-S^{-1}(Sv)=
+\begin{aligned}
+S^{-1}(Sv) &=
 \begin{pmatrix}
 1/2 & 0 \\
 0 & 2 \\
@@ -66,12 +69,13 @@ S^{-1}(Sv)=
 \begin{pmatrix}
 2 \\
 1/2 \\
-\end{pmatrix}
-=
+\end{pmatrix} \\
+&=
 \begin{pmatrix}
 1 \\
 1 \\
 \end{pmatrix}
+\end{aligned}
 $$
 
 The vector returns to its original state.
