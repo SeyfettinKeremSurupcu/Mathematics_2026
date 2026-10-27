@@ -28,7 +28,9 @@ Compare the results. Additionally compute $H^{-1}S^{-1}$ and verify that the inc
 Method 1:
 
 $$
-T = HS = 
+\begin{aligned}
+T &= HS \\
+&= 
 \begin{pmatrix}
 1 & 1 \\
 0 & 1 \\
@@ -36,26 +38,29 @@ T = HS =
 \begin{pmatrix}
 2 & 0 \\
 0 & 1 \\
-\end{pmatrix}
-=
+\end{pmatrix} \\
+&=
 \begin{pmatrix}
 2 & 1 \\
 0 & 1 \\
 \end{pmatrix}
+\end{aligned}
 $$
 
 $$
-T^{-1} = 
+\begin{aligned}
+T^{-1} &= 
 \frac{1}{2}
 \begin{pmatrix}
 1 & -1 \\
 0 & 2 \\
-\end{pmatrix}
-=
+\end{pmatrix} \\
+&=
 \begin{pmatrix}
 1/2 & -1/2 \\
 0 & 1 \\
 \end{pmatrix}
+\end{aligned}
 $$
 
 Method 2:
@@ -117,3 +122,5 @@ H^{-1}S^{-1} &=
 \end{pmatrix}
 \end{aligned}
 $$
+
+This produces a different matrix. To accurately reverse a sequence of operations, the last operation applied must be the first one undone.
