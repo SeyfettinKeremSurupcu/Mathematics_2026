@@ -23,7 +23,7 @@ Find the conditions on $a,b,c,d$ under which $AB=BA$. Describe the general form 
 First, compute the product $AB$:
 
 $$
-AB=
+AB =
 \begin{pmatrix}
 1 & 1 \\
 0 & 1 \\
@@ -31,8 +31,7 @@ AB=
 \begin{pmatrix}
 a & b \\
 c & d \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 a+c & b+d \\
 c & d \\
@@ -42,7 +41,7 @@ $$
 Next, compute the product $BA$:
 
 $$
-BA=
+BA =
 \begin{pmatrix}
 a & b \\
 c & d \\
@@ -50,8 +49,7 @@ c & d \\
 \begin{pmatrix}
 1 & 1 \\
 0 & 1 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 a & a+b \\
 c & c+d \\
