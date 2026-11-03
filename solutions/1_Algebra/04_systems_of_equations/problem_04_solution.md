@@ -46,9 +46,7 @@ $$
 x \\
 y \\
 z \\
-\end{pmatrix}
-=
-\begin{pmatrix}
+\end{pmatrix} = \begin{pmatrix}
 1 - t \\
 1 \\
 t \\
