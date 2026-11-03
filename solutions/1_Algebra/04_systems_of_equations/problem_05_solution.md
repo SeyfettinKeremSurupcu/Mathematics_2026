@@ -55,6 +55,7 @@ z \\
 =
 \begin{pmatrix}
 1 + 5t \\
+---
 1 - 2t \\
 t \\
 \end{pmatrix}
