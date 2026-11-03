@@ -35,7 +35,7 @@ and explain how this multiplication performs one recurrence step: it creates the
 Compute the powers of $F$:
 
 $$
-F^2=
+F^2 =
 \begin{pmatrix}
 1 & 1 \\
 1 & 0 \\
@@ -43,8 +43,7 @@ F^2=
 \begin{pmatrix}
 1 & 1 \\
 1 & 0 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 2 & 1 \\
 1 & 1 \\
@@ -52,7 +51,7 @@ F^2=
 $$
 
 $$
-F^3= F^2 F =
+F^3 = F^2 F =
 \begin{pmatrix}
 2 & 1 \\
 1 & 1 \\
@@ -60,8 +59,7 @@ F^3= F^2 F =
 \begin{pmatrix}
 1 & 1 \\
 1 & 0 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 3 & 2 \\
 2 & 1 \\
@@ -69,7 +67,7 @@ F^3= F^2 F =
 $$
 
 $$
-F^4= F^3 F =
+F^4 = F^3 F =
 \begin{pmatrix}
 3 & 2 \\
 2 & 1 \\
@@ -77,8 +75,7 @@ F^4= F^3 F =
 \begin{pmatrix}
 1 & 1 \\
 1 & 0 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 5 & 3 \\
 3 & 2 \\
@@ -86,7 +83,7 @@ F^4= F^3 F =
 $$
 
 $$
-F^5= F^4 F =
+F^5 = F^4 F =
 \begin{pmatrix}
 5 & 3 \\
 3 & 2 \\
@@ -94,8 +91,7 @@ F^5= F^4 F =
 \begin{pmatrix}
 1 & 1 \\
 1 & 0 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 8 & 5 \\
 5 & 3 \\
@@ -111,8 +107,7 @@ F
 \begin{pmatrix}
 a \\
 b \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 1 & 1 \\
 1 & 0 \\
@@ -120,8 +115,7 @@ b \\
 \begin{pmatrix}
 a \\
 b \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 a+b \\
 a \\
