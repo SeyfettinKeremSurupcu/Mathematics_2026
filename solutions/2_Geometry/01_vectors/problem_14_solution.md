@@ -1,23 +1,33 @@
-## Question
+### Exercise 14. Closest Point on a Line
 
-For $P=(4,1)$ and the line through the origin in direction $v=(1,2)$, find the closest point and distance using projection, and verify the relevant perpendicularity.
+Given a point $P=(4,1)$ and a line through the origin with direction $v=(1,2)$. Using projection, find the closest point on the line, the distance from $P$ to the line, and verify that the appropriate vector is perpendicular to the direction of the line.
 
-## Solution
+**Answer 14**
 
-The closest point is the projection of $P$ onto the line:
+Closest point (projection):
 
-$$Q=\operatorname{proj}_v P=\frac{P\cdot v}{v\cdot v}v=\frac65(1,2)=\left(\frac65,\frac{12}{5}\right).$$
+$$
+\mathrm{proj}_v\,P = \frac{(4)(1)+(1)(2)}{1^2+2^2}(1,2) = \frac{6}{5}(1,2) = \left(\frac{6}{5}, \frac{12}{5}\right)
+$$
 
-The displacement from the closest point to $P$ is
+Distance vector ($r$):
 
-$$P-Q=\left(\frac{14}{5},-\frac75\right),$$
+$$
+r = (4,1) - \left(\frac{6}{5}, \frac{12}{5}\right) = \left(\frac{14}{5}, -\frac{7}{5}\right)
+$$
 
-so the distance is
+Distance:
 
-$$\|P-Q\|=\sqrt{\frac{196+49}{25}}=\frac{7}{\sqrt5}.$$
+$$
+\|r\| = \sqrt{\left(\frac{14}{5}\right)^2 + \left(-\frac{7}{5}\right)^2} = \sqrt{\frac{196}{25} + \frac{49}{25}} = \sqrt{\frac{245}{25}} = \frac{7\sqrt{5}}{5}
+$$
 
-The perpendicularity check is
+Verification (perpendicularity):
 
-$$(P-Q)\cdot v=\left(\frac{14}{5},-\frac75\right)\cdot(1,2)=\frac{14}{5}-\frac{14}{5}=0.$$
+$$
+\left(\frac{14}{5}, -\frac{7}{5}\right)\cdot(1,2) = \frac{14}{5} - \frac{14}{5} = 0
+$$
 
-Thus the displacement from $Q$ to $P$ is perpendicular to the line direction. A perpendicular segment is the shortest segment from a point to a line, so this also explains why $Q$ is the closest point.
+The shortest distance from a point to a line is always measured along a path that is perpendicular to that line.
+
+---
