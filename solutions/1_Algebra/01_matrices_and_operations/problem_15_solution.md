@@ -7,12 +7,14 @@ A=
 \begin{pmatrix}
 1 & 2 & 0 \\
 0 & 1 & 1 \\
-\end{pmatrix},\quad B=
+\end{pmatrix},
+\quad B=
 \begin{pmatrix}
 1 & 0 \\
 2 & 1 \\
 -1 & 3 \\
-\end{pmatrix},\quad C=
+\end{pmatrix},
+\quad C=
 \begin{pmatrix}
 2 & 1 \\
 0 & -1 \\
@@ -23,7 +25,7 @@ Compute $(AB)C$ and $A(BC)$. Compare the results and the number of intermediate 
 
 > **Why this exercise:** reinforces associativity by comparing two mathematically equivalent calculation paths.
 
-**Solution:**
+**Answer 15**
 
 **Path 1: Compute $(AB)C$**
 
@@ -39,11 +41,13 @@ AB =
 1 & 0 \\
 2 & 1 \\
 -1 & 3 \\
-\end{pmatrix} =
+\end{pmatrix}
+=
 \begin{pmatrix}
 1(1)+2(2)+0(-1) & 1(0)+2(1)+0(3) \\
 0(1)+1(2)+1(-1) & 0(0)+1(1)+1(3) \\
-\end{pmatrix} =
+\end{pmatrix}
+=
 \begin{pmatrix}
 5 & 2 \\
 1 & 4 \\
@@ -61,11 +65,13 @@ $$
 \begin{pmatrix}
 2 & 1 \\
 0 & -1 \\
-\end{pmatrix} =
+\end{pmatrix}
+=
 \begin{pmatrix}
 5(2)+2(0) & 5(1)+2(-1) \\
 1(2)+4(0) & 1(1)+4(-1) \\
-\end{pmatrix} =
+\end{pmatrix}
+=
 \begin{pmatrix}
 10 & 3 \\
 2 & -3 \\
@@ -86,12 +92,14 @@ BC =
 \begin{pmatrix}
 2 & 1 \\
 0 & -1 \\
-\end{pmatrix} =
+\end{pmatrix}
+=
 \begin{pmatrix}
 1(2)+0(0) & 1(1)+0(-1) \\
 2(2)+1(0) & 2(1)+1(-1) \\
 -1(2)+3(0) & -1(1)+3(-1) \\
-\end{pmatrix} =
+\end{pmatrix}
+=
 \begin{pmatrix}
 2 & 1 \\
 4 & 1 \\
@@ -111,15 +119,21 @@ A(BC) =
 2 & 1 \\
 4 & 1 \\
 -2 & -4 \\
-\end{pmatrix} =
+\end{pmatrix}
+=
 \begin{pmatrix}
 1(2)+2(4)+0(-2) & 1(1)+2(1)+0(-4) \\
 0(2)+1(4)+1(-2) & 0(1)+1(1)+1(-4) \\
-\end{pmatrix} =
+\end{pmatrix}
+=
 \begin{pmatrix}
 10 & 3 \\
 2 & -3 \\
 \end{pmatrix}
 $$
 
-The results are identical. Associativity in this example means that the way the matrices are grouped for calculation—whether multiplying $A$ and $B$ first, or $B$ and $C$ first—does not change the final answer. However, the calculation paths differ fundamentally: $(AB)C$ required multiplying a $2\times3$ by a $3\times2$, then a $2\times2$ by a $2\times2$, while $A(BC)$ required multiplying a $3\times2$ by a $2\times2$, then a $2\times3$ by a $3\times2$.
+**Comparison and Explanation:**
+
+The results are identical. Associativity in this example means that the way the matrices are grouped for calculation—whether multiplying $A$ and $B$ first, or $B$ and $C$ first—does not change the final answer. 
+
+However, the calculation paths differ fundamentally in computational cost. A numerical comparison of the scalar multiplications shows that $(AB)C$ uses $12 + 8 = 20$ multiplications, while $A(BC)$ uses $12 + 12 = 24$ multiplications[cite: 2].
