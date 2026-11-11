@@ -22,6 +22,4 @@ $$
 r\cdot v = (1)(1) + (-1)(1) = 0
 $$
 
-**Geometric Interpretation:** The vector $u$ is decomposed into two independent parts: its component in the direction of $v$ ($(3,3)$) and its component strictly perpendicular to $v$ ($(1,-1)$).
-
----
+**Geometric Interpretation:** The vector $u$ is decomposed into two independent parts: its component in the direction of $v$, which is $(3,3)$, and its component strictly perpendicular to $v$, which is $(1,-1)$.
