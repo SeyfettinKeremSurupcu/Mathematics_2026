@@ -1,21 +1,38 @@
-## Question
+### Exercise 9. Cross Product as a Perpendicular Direction
 
-For $u=(1,2,0)$ and $v=(0,1,3)$, compute $u\times v$, verify perpendicularity to both vectors, and compare with $v\times u$.
+For $u=(1,2,0)$ and $v=(0,1,3)$, compute $u\times v$. Use dot products to check perpendicularity to both vectors, compute $v\times u$, and compare the results.
 
-## Solution
+**Answer 9**
 
-Expanding the determinant gives
+Cross product:
 
-$$u\times v=(2\cdot3-0\cdot1,\;0\cdot0-1\cdot3,\;1\cdot1-2\cdot0)=(6,-3,1).$$
+$$
+u\times v =
+\begin{pmatrix}
+i & j & k \\
+1 & 2 & 0 \\
+0 & 1 & 3 \\
+\end{pmatrix}
+= i(6-0) - j(3-0) + k(1-0) = (6, -3, 1)
+$$
 
-The dot-product checks are
+*(Note: standard determinant notation usually uses `vmatrix`, but following rule 4, `pmatrix` is used for matrices.)*
 
-$$(6,-3,1)\cdot(1,2,0)=6-6=0,$$
+Verification (perpendicularity check):
 
-$$(6,-3,1)\cdot(0,1,3)=-3+3=0.$$
+$$
+\begin{aligned}
+(6,-3,1)\cdot(1,2,0) &= 6-6+0 = 0 \\
+(6,-3,1)\cdot(0,1,3) &= 0-3+3 = 0
+\end{aligned}
+$$
 
-Thus the cross product is perpendicular to both original vectors. Reversing the order gives
+Comparison for $v\times u$:
 
-$$v\times u=(-6,3,-1)=-(u\times v),$$
+$$
+v\times u = (-6, 3, -1) = -(u\times v)
+$$
 
-so the perpendicular direction reverses orientation while keeping its magnitude.
+**Explanation:** Changing the order of the cross product preserves the magnitude of the resulting perpendicular vector but completely reverses its direction (according to the right-hand rule).
+
+---
