@@ -1,23 +1,37 @@
-## Question
+### Exercise 12. A Normal Vector to a Plane
 
-For $A=(1,0,2)$, $B=(2,1,0)$, and $C=(0,3,1)$, construct two in-plane vectors, find a vector perpendicular to both, and check it with dot products.
+Given $A=(1,0,2)$, $B=(2,1,0)$, and $C=(0,3,1)$. Construct two vectors lying in the plane, find a vector perpendicular to both, and check the perpendicularity using dot products.
 
-## Solution
+**Answer 12**
 
-Two vectors in the plane are
+Vectors within the plane:
 
-$$\overrightarrow{AB}=(1,1,-2),\qquad \overrightarrow{AC}=(-1,3,-1).$$
+$$
+\begin{aligned}
+\overrightarrow{AB} &= (1,1,-2) \\
+\overrightarrow{AC} &= (-1,3,-1)
+\end{aligned}
+$$
 
-Their cross product is
+Normal vector ($n$):
 
-$$\overrightarrow{AB}\times\overrightarrow{AC}=(5,3,4).$$
+$$
+n = \overrightarrow{AB}\times\overrightarrow{AC} =
+\begin{pmatrix}
+i & j & k \\
+1 & 1 & -2 \\
+-1 & 3 & -1 \\
+\end{pmatrix}
+= i(-1+6) - j(-1-2) + k(3+1) = (5, 3, 4)
+$$
 
-Thus $n=(5,3,4)$ is a normal vector to the plane through the three points.
+Verification (dot product check):
 
-The requested dot-product checks are
+$$
+\begin{aligned}
+(5,3,4)\cdot(1,1,-2) &= 5+3-8 = 0 \\
+(5,3,4)\cdot(-1,3,-1) &= -5+9-4 = 0
+\end{aligned}
+$$
 
-$$n\cdot\overrightarrow{AB}=5+3-8=0,$$
-
-$$n\cdot\overrightarrow{AC}=-5+9-4=0.$$
-
-Both in-plane directions are perpendicular to $n$, which verifies that $n$ is a normal vector.
+---
