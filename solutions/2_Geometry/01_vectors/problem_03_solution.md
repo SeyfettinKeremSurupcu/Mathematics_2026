@@ -1,19 +1,33 @@
-## Question
+### Exercise 3. Vector Normalization
 
-Normalize $v=(3,4)$, check the unit length, reconstruct $v$, and explain what normalization changes.
+For $v=(3,4)$, find a unit vector $e$ with the same direction and orientation. Check that $\|e\|=1$, reconstruct $v$ in the form $v=\|v\|e$, and explain what changes during normalization and what remains unchanged.
 
-## Solution
+**Answer 3**
 
-First, $\|v\|=\sqrt{3^2+4^2}=5$. Dividing by this positive length gives the unit vector
+Vector length:
 
-$$e=\frac{v}{\|v\|}=\left(\frac35,\frac45\right).$$
+$$
+\|v\| = \sqrt{3^2+4^2} = 5
+$$
 
-Indeed,
+Unit vector:
 
-$$\|e\|=\sqrt{\frac9{25}+\frac{16}{25}}=1,$$
+$$
+e = \frac{v}{\|v\|} = \left(\frac{3}{5}, \frac{4}{5}\right)
+$$
 
-and reconstruction yields
+Unit vector check:
 
-$$\|v\|e=5\left(\frac35,\frac45\right)=(3,4)=v.$$
+$$
+\|e\| = \sqrt{\left(\frac{3}{5}\right)^2 + \left(\frac{4}{5}\right)^2} = \sqrt{\frac{9+16}{25}} = 1
+$$
 
-Normalization changes the length to one while preserving the direction and orientation because division is by the positive scalar $5$.
+Reconstruction:
+
+$$
+\|v\|e = 5\left(\frac{3}{5}, \frac{4}{5}\right) = (3,4) = v
+$$
+
+**Explanation:** During normalization, the direction remains the same, only the length of the vector is scaled to exactly $1$ unit.
+
+---
