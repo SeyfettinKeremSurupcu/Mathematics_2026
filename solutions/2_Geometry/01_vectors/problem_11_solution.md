@@ -1,23 +1,33 @@
-## Question
+### Exercise 11. Decomposition into Parallel and Perpendicular Components
 
-Decompose $u=(3,4)$ into components parallel and perpendicular to $v=(1,2)$, perform both requested checks, and explain why they are independent.
+Decompose $u=(3,4)$ into components parallel and perpendicular to $v=(1,2)$. Check $u=u_{\parallel}+u_{\perp}$ and $u_{\perp}\cdot v=0$. Explain why these are two independent checks of correctness.
 
-## Solution
+**Answer 11**
 
-The parallel component is the projection:
+Parallel component:
 
-$$u_{\parallel}=\frac{u\cdot v}{v\cdot v}v=\frac{11}{5}(1,2)=\left(\frac{11}{5},\frac{22}{5}\right).$$
+$$
+u_{\parallel} = \mathrm{proj}_v\,u = \frac{3+8}{1+4}(1,2) = \frac{11}{5}(1,2) = \left(\frac{11}{5}, \frac{22}{5}\right)
+$$
 
-Subtracting it from $u$ gives
+Perpendicular component:
 
-$$u_{\perp}=u-u_{\parallel}=\left(\frac45,-\frac25\right).$$
+$$
+u_{\perp} = u - u_{\parallel} = (3,4) - \left(\frac{11}{5}, \frac{22}{5}\right) = \left(\frac{4}{5}, -\frac{2}{5}\right)
+$$
 
-The reconstruction check is
+Check 1 (Sum):
 
-$$u_{\parallel}+u_{\perp}=\left(\frac{15}{5},\frac{20}{5}\right)=(3,4)=u,$$
+$$
+u_{\parallel} + u_{\perp} = \left(\frac{11+4}{5}, \frac{22-2}{5}\right) = (3,4) = u
+$$
 
-while the orthogonality check is
+Check 2 (Perpendicularity):
 
-$$u_{\perp}\cdot v=\frac45-\frac45=0.$$
+$$
+u_{\perp}\cdot v = \left(\frac{4}{5}\right)(1) + \left(-\frac{2}{5}\right)(2) = \frac{4}{5} - \frac{4}{5} = 0
+$$
 
-Reconstruction checks that no component of $u$ was lost; the dot product separately checks that the residual has the required perpendicular direction. Either condition alone would not establish both facts.
+**Explanation:** The first equality guarantees that no information is lost during the decomposition process, while the second equality tests whether the separated part truly satisfies the required geometric condition (perpendicularity).
+
+---
