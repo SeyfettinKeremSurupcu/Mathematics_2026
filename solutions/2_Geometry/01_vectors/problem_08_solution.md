@@ -1,15 +1,42 @@
-## Question
+### Exercise 8. Linear Combination and Checking the Result
 
-Determine whether $w=(5,1)$ is $au+bv$ for $u=(1,1)$ and $v=(2,-1)$; find and check the coefficients and explain their geometric meaning.
+Check whether $w=(5,1)$ can be written as $w=au+bv$, where $u=(1,1)$ and $v=(2,-1)$. If so, find $a,b$, reconstruct $w$ from them, and explain the geometric meaning of the existence of such coefficients.
 
-## Solution
+**Answer 8**
 
-Equating coordinates in $au+bv=w$ gives
+Linear combination equation:
 
-$$a+2b=5,\qquad a-b=1.$$
+$$
+(5,1) = a(1,1) + b(2,-1)
+$$
 
-Subtracting the second equation from the first gives $3b=4$, hence $b=4/3$ and $a=1+b=7/3$. Reconstruction checks the answer:
+Resulting system:
 
-$$\frac73(1,1)+\frac43(2,-1)=\left(\frac{15}{3},\frac{3}{3}\right)=(5,1).$$
+$$
+\begin{cases}
+a+2b = 5, \\
+a-b = 1.
+\end{cases}
+$$
 
-Geometrically, the coefficients describe the directed amounts of the two nonparallel directions needed to reach $w$; since $u$ and $v$ span the plane, such coordinates exist uniquely.
+From the second equation, $a = b+1$. Substituting this into the first equation:
+
+$$
+\begin{aligned}
+(b+1) + 2b &= 5 \\
+3b &= 4 \\
+b &= \frac{4}{3}
+\end{aligned}
+$$
+
+Thus, $a = \frac{7}{3}$.
+
+Reconstruction and verification:
+
+$$
+\frac{7}{3}(1,1) + \frac{4}{3}(2,-1) = \left(\frac{7+8}{3}, \frac{7-4}{3}\right) = (5,1)
+$$
+
+**Geometric Meaning:** Two non-parallel vectors form a basis spanning their plane. These coefficients indicate exactly how far to move in the direction of each basis vector to reach the target point.
+
+---
