@@ -1,19 +1,41 @@
-## Question
+### Exercise 13. Do Four Points Lie in One Plane?
 
-For $A=(0,0,0)$, $B=(1,2,0)$, $C=(0,1,1)$, and $D=(2,5,1)$, use a cross product and scalar triple-product check to decide whether the four points are coplanar.
+Given the following points:
 
-## Solution
+$$
+A=(0,0,0), \qquad B=(1,2,0), \qquad C=(0,1,1), \qquad D=(2,5,1)
+$$
 
-The in-plane candidates are
+1. Construct $\overrightarrow{AB}$ and $\overrightarrow{AC}$.
+2. Find $n=\overrightarrow{AB}\times\overrightarrow{AC}$.
+3. Construct $\overrightarrow{AD}$ and check whether $\overrightarrow{AD}\cdot n=0$.
+4. Based on this, decide whether $D$ lies in the plane determined by $A,B,C$, and justify the criterion.
 
-$$\overrightarrow{AB}=(1,2,0),\qquad \overrightarrow{AC}=(0,1,1).$$
+**Answer 13**
 
-Their cross product is
+Vector construction and normal calculation:
 
-$$n=\overrightarrow{AB}\times\overrightarrow{AC}=(2,-1,1).$$
+$$
+\begin{aligned}
+\overrightarrow{AB} &= (1,2,0) \\
+\overrightarrow{AC} &= (0,1,1)
+\end{aligned}
+$$
 
-Also $\overrightarrow{AD}=(2,5,1)$. I compute
+$$
+n = \overrightarrow{AB}\times\overrightarrow{AC} = (2-0, 0-1, 1-0) = (2, -1, 1)
+$$
 
-$$\overrightarrow{AD}\cdot n=2\cdot2+5(-1)+1\cdot1=4-5+1=0.$$
+Checking the third vector:
 
-Since this value is zero, $\overrightarrow{AD}$ is perpendicular to the normal, so $D$ lies in the plane through $A,B,C$. The criterion is that a displacement within the plane must have zero dot product with its normal.
+$$
+\overrightarrow{AD} = (2,5,1)
+$$
+
+$$
+\overrightarrow{AD}\cdot n = 2(2) + 5(-1) + 1(1) = 4 - 5 + 1 = 0
+$$
+
+**Result:** Point $D$ lies on the plane formed by $A,B,C$. Any vector lying on the plane must be exactly perpendicular to the normal vector of that plane. The dot product being zero satisfies this condition.
+
+---
